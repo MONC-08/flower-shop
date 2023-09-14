@@ -76,7 +76,7 @@ body {
 
 .insta-container {
     margin-bottom: 100px;
-
+    margin-top: 30px;
 }
 
 .insta-box {
@@ -167,4 +167,72 @@ footer h2 {
 
 .copyright-title {
     color: #8c8a8a;
+}
+
+/* Featured flowers related styles */
+
+.featured-flowers-container {
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
+
+.featured-details {
+    text-align: center;
+}
+
+.featured-items {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.featured-items p {
+    text-align: center;
+    text-decoration: underline;
+    margin-top: 10px;
+}
+
+.item {
+    width: 250px;
+    height: 300px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    overflow: hidden;
+}
+
+.item-1 {
+    background-color: #eebbd4;
+}
+
+.item-2 {
+    background-color: #a3c1c3;
+}
+
+.item-3 {
+    background-color: #c2c6bd;
+}
+
+.item img {
+    width: 70%;
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.item-1 img {
+    margin-top: 59px;
+    margin-left: 40px;
+}
+
+.item-2 img {
+    width: 85%;
+    margin-top: 65px;
+    margin-left: 40px;
+}
+
+.item-3 img {
+    margin-top: 40px;
+    margin-left: 40px;
 }
